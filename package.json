@@ -24,8 +24,9 @@
   },
   "homepage": "https://github.com/helobsa/first-app#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "faker": "^5.5.3",
-    "module": "^1.2.5"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3"
   }
 }
