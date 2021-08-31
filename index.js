@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 const routes = require("./routes");
+const expressLayouts = require("express-ejs-layouts");
+const { urlencoded } = require("express")
+
 
 const port = 3000;
 const address = "localhost";
