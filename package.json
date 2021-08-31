@@ -1,0 +1,29 @@
+{
+  "name": "first-app",
+  "version": "0.0.1",
+  "description": "Aplicação Para Cadastro de Usuários",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helobsa/first-app.git"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "app",
+    "user",
+    "managing"
+  ],
+  "author": "Heloise B Sá",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/helobsa/first-app/issues"
+  },
+  "homepage": "https://github.com/helobsa/first-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
