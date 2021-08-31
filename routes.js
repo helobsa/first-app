@@ -1,13 +1,21 @@
 const express = require("express");
 const router = express.Router();
-const faker = require("faker");
 
+router.use(express.static('public'));
 
-
-let db = require("./db");
-
-router.get('/', (req, res)=>{
-res.render('pages/home');
+router.get('/',(req,res)=>{
+    res.render('pages/home');
 });
+
+router.get('/about',(req,res)=>{
+
+    res.render('pages/about');
+});
+
+router.get('/cadastro',(req,res)=>{ 
+
+    res.render('pages/cadastro',{users:users}); 
+});
+
 
 module.exports = router;
