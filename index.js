@@ -5,7 +5,7 @@ const expressLayouts = require("express-ejs-layouts");
 const { urlencoded } = require("express")
 
 
-const port = 3000;
+const port = 3030;
 const address = "localhost";
 
 const utils = require("./utils");
@@ -25,6 +25,7 @@ app.use(routes);
 
 app.set('view engine','ejs');
 app.use(expressLayouts);
+
 app.use(express.urlencoded({extended:false})); 
 app.use(express.json());
 
