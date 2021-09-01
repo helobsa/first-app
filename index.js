@@ -5,7 +5,7 @@ const expressLayouts = require("express-ejs-layouts");
 const { urlencoded } = require("express")
 
 
-const port = 3030;
+const port = 3000;
 const address = "localhost";
 
 const utils = require("./utils");
